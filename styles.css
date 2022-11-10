@@ -1,3 +1,17 @@
+.color-change {
+  padding: 10px;
+  border-radius: 30px;
+  border: 1px solid transparent;
+  width: 375px;
+  display: block;
+  margin: 20px auto;
+  font-size: 20px;
+  cursor: pointer;
+}
+.color-change:hover {
+  box-shadow: 1px 1px 6px 0px gray;
+  background-color: beige;
+}
 #main-header {
   background-color: rgb(246, 238, 225);
   max-width: 375px;
