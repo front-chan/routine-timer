@@ -1,0 +1,84 @@
+#main-header {
+  background-color: rgb(246, 238, 225);
+  max-width: 375px;
+  width: 95%;
+  height: 667px;
+  border-radius: 30px;
+  margin: 20px auto;
+  box-shadow: 1px 1px 6px 0px gray;
+}
+.text-box {
+  text-align: center;
+  padding-top: 10px;
+  color: rgb(67, 67, 67);
+}
+.text-box > h1 {
+  font-size: 40px;
+  margin-bottom: 0;
+}
+.text-box > p {
+  margin-top: 10px;
+}
+#first-section {
+  max-width: 150px;
+  height: 400px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 20px;
+}
+.start-btn,
+.stop-btn {
+  width: 150px;
+  height: 150px;
+  padding: 50px;
+  border-radius: 50%;
+  cursor: pointer;
+  color: white;
+}
+.start-btn {
+  background-color: rgb(240, 189, 59);
+  border: 1px solid rgb(240, 189, 59);
+}
+.stop-btn {
+  display: none;
+  background-color: rgb(226, 114, 17);
+  border: 1px solid rgb(226, 114, 17);
+}
+.time-text {
+  margin-top: 30px;
+  margin-bottom: 20px;
+  font-size: 40px;
+  color: rgb(67, 67, 67);
+}
+.reset-btn,
+.save-btn {
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.save-btn {
+  background-color: rgb(226, 114, 17);
+  border: 1px solid rgb(226, 114, 17);
+}
+.reset-btn {
+  background-color: rgb(240, 189, 59);
+  border: 1px solid rgb(240, 189, 59);
+}
+.record-section {
+  width: 300px;
+  height: 120px;
+  overflow: scroll;
+}
+.record-section > ul {
+  margin: 0 auto;
+}
+.record-list > li {
+  list-style: none;
+  color: rgb(67, 67, 67);
+  margin-top: 5px;
+  text-align: center;
+}
